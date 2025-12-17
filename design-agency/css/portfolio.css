@@ -1,0 +1,48 @@
+/* Portfolio Custom Styles Overrides */
+
+#hero {
+  background-image: url('../img/hero-bg-pattern.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#skills i {
+  margin-bottom: 0.25rem;
+}
+
+.card-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.22rem;
+}
+
+.btn-primary, .btn-primary:focus {
+  background-color: #fa2851;
+  border: none;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #fff;
+  color: #fa2851;
+  border: 1px solid #fa2851;
+}
+
+footer .fab {
+  color: #fa2851;
+  transition: color 0.3s;
+}
+
+footer .fab:hover {
+  color: #202020;
+}
+
+@media (max-width: 767.98px) {
+  #hero .display-4 {
+    font-size: 2.1rem;
+  }
+  #about img {
+    max-width: 60vw !important;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+}
